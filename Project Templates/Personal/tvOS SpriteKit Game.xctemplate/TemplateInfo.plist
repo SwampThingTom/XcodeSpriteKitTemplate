@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Kind</key>
+    <string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+    <key>Identifier</key>
+    <string>com.swampthingtom.dt.unit.crossPlatformSpriteKitGame_tvOSComponent</string>
+    <key>Ancestors</key>
+    <array>
+        <string>com.apple.dt.unit.crossPlatformAppBase_tvOS</string>
+    </array>
+    <key>Definitions</key>
+    <dict>
+        <key>Base.lproj/Main.storyboard</key>
+        <dict>
+            <key>Path</key>
+            <string>SpriteKit_Main.storyboard</string>
+            <key>SortOrder</key>
+            <integer>99</integer>
+        </dict>
+    </dict>
+    <key>Options</key>
+    <array>
+        <dict>
+            <key>Identifier</key>
+            <string>languageChoice</string>
+            <key>Units</key>
+            <dict>
+                <key>Swift</key>
+                <dict>
+                    <key>Nodes</key>
+                    <array>
+                        <string>GameViewController.swift</string>
+                    </array>
+                    <key>Definitions</key>
+                    <dict>
+                        <key>GameViewController.swift</key>
+                        <dict>
+                            <key>Path</key>
+                            <string>SpriteKit_GameViewController.swift</string>
+                        </dict>
+                    </dict>
+                </dict>
+            </dict>
+        </dict>
+    </array>
+</dict>
+</plist>
